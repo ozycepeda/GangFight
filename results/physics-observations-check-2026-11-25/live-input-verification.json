@@ -1,0 +1,29 @@
+{
+  "behavior": "GangFightFighterV4?team=0",
+  "observations": 526,
+  "actor_forward_passes": 120,
+  "inputs_equal_unity_observations": true,
+  "finite_and_normalized": true,
+  "changed_physics_channels": {
+    "relative_positions": 0.5064898729324341,
+    "orientations": 1.780958652496338,
+    "linear_velocities": 0.7750139236450195,
+    "angular_velocities": 1.148707389831543
+  },
+  "headbutt_phases_seen": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "action_branches": [
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ]
+}

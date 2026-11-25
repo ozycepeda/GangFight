@@ -1,0 +1,21 @@
+{
+  "training": "fresh initialization, not resumed",
+  "seed": 41,
+  "opponent": "passive",
+  "shaping": true,
+  "arenas": 4,
+  "num_envs": 1,
+  "torch_threads": 1,
+  "requested_learning_seconds": 1000,
+  "annealing_horizon_steps": 2000000,
+  "original_pilot_annealing_horizon": 100000,
+  "control_checkpoint_step": 99952,
+  "runtime_hashes_match_previous": true,
+  "hashes": {
+    "Assets/GangFight/Runtime/Arena.cs": "81da13c5fc29286daa1479e1dc768c3a86858312b1263b648dbe34b922557ae6",
+    "Assets/GangFight/Runtime/Fighter.cs": "0fd20c6188d8601482399c1777dc8ec6e62635c6ae95a8eede452fb4b9e497bb",
+    "Assets/GangFight/Runtime/FighterAgent.cs": "51ee9d319fd2b34b7b35f6d484043e69497238c43bd4d1ba1f47c66a33af0ef1",
+    "Assets/GangFight/Runtime/GangFightGame.cs": "8f0ba04fc3f5b1c7fa969d3ecb621b93e4f85f6cdfd3ba0103d411bcea621b49",
+    "builds/macOS-training/GangFight.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll": "a3f348d3141e91c3d620558d2d4a7e937cb901c9233e3cee663aaa54be110f2c"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "build": "passed",
+  "combat_smoke": "passed",
+  "rules": "GANGFIGHT_RULES_OK",
+  "python_existing_tests": 3,
+  "onnx_models_checked": 18,
+  "frozen_evaluation_rounds_verified": 240,
+  "training_runs_completed": 18,
+  "requested_training_steps": 517792
+}

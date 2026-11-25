@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "count": 18,
+  "models": [
+    "/Users/camilacepeda/Codigos/gangfight/results/benchmark-t1-free/128x2-a1/GangFightFighterV3.onnx",
+    "/Users/camilacepeda/Codigos/gangfight/results/benchmark-optimized-t1/128x2-a1/GangFightFighterV3.onnx",
+    "/Users/camilacepeda/Codigos/gangfight/results/benchmark-optimized-t1/128x2-a2/GangFightFighterV3.onnx",
+    "/Users/camilacepeda/Codigos/gangfight/results/benchmark-optimized-t1/128x2-a4/GangFightFighterV3.onnx",
+    "/Users/camilacepeda/Codigos/gangfight/results/benchmark-optimized-t1/128x2-a8/GangFightFighterV3.onnx",
+    "/Users/camilacepeda/Codigos/gangfight/results/benchmark-optimized-t1/64x2-a4/GangFightFighterV3.onnx",
+    "/Users/camilacepeda/Codigos/gangfight/results/benchmark-optimized-t1/256x2-a4/GangFightFighterV3.onnx",
+    "/Users/camilacepeda/Codigos/gangfight/results/benchmark-optimized-t1/512x3-a4/GangFightFighterV3.onnx",
+    "/Users/camilacepeda/Codigos/gangfight/results/benchmark-reference-free/128x2-a1/GangFightFighterV3.onnx",
+    "/Users/camilacepeda/Codigos/gangfight/results/benchmark-p2/128x2-a4/GangFightFighterV3.onnx",
+    "/Users/camilacepeda/Codigos/gangfight/results/benchmark-selfplay/128x2-a4/GangFightFighterV3.onnx",
+    "/Users/camilacepeda/Codigos/gangfight/results/benchmark-p4/128x2-a2/GangFightFighterV3.onnx",
+    "/Users/camilacepeda/Codigos/gangfight/results/benchmark-optimized-t4/128x2-a1/GangFightFighterV3.onnx",
+    "/Users/camilacepeda/Codigos/gangfight/results/benchmark-t4-free/128x2-a1/GangFightFighterV3.onnx",
+    "/Users/camilacepeda/Codigos/gangfight/results/benchmark-baseline-clean/128x2-a1/GangFightFighterV3.onnx",
+    "/Users/camilacepeda/Codigos/gangfight/results/benchmark-baseline-native/128x2-a1/GangFightFighterV3.onnx",
+    "/Users/camilacepeda/Codigos/gangfight/results/benchmark-p8/128x2-a1/GangFightFighterV3.onnx",
+    "/Users/camilacepeda/Codigos/gangfight/results/pilot-100k/128x2-a4/GangFightFighterV3.onnx"
+  ]
+}

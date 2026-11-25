@@ -1,0 +1,24 @@
+{
+  "date_local": "2026-11-24",
+  "timezone": "America/Mexico_City",
+  "machine": "MacBook Air Apple M5, 10 CPU cores, 32 GB",
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "python": "3.10.22",
+  "unity": "6000.3.18f1",
+  "mlagents": "1.1.0",
+  "physics_hz": 50,
+  "decision_hz": 25,
+  "observations": 86,
+  "action_branches": [
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "warmup_steps": 4096,
+  "early_contamination": "Exclude baseline-native (Unity compilation) and baseline-clean, optimized-t4, optimized-t1/a1 (two stuck Docker smoke tests); optimized-t1/a2 onwards after containers stopped."
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "evaluation": "evaluation-final",
+    "opponent": "passive",
+    "wins": 0,
+    "opponent_fall_credits_in_wins": {},
+    "learner_hits": 243,
+    "rounds_verified": 40
+  },
+  {
+    "evaluation": "evaluation-final",
+    "opponent": "chase",
+    "wins": 16,
+    "opponent_fall_credits_in_wins": {
+      "0": 16
+    },
+    "learner_hits": 361,
+    "rounds_verified": 40
+  },
+  {
+    "evaluation": "evaluation-final",
+    "opponent": "edge",
+    "wins": 16,
+    "opponent_fall_credits_in_wins": {
+      "0": 14,
+      "-1": 2
+    },
+    "learner_hits": 482,
+    "rounds_verified": 40
+  },
+  {
+    "evaluation": "evaluation-random",
+    "opponent": "passive",
+    "wins": 0,
+    "opponent_fall_credits_in_wins": {},
+    "learner_hits": 8,
+    "rounds_verified": 40
+  },
+  {
+    "evaluation": "evaluation-random",
+    "opponent": "chase",
+    "wins": 13,
+    "opponent_fall_credits_in_wins": {
+      "0": 13
+    },
+    "learner_hits": 77,
+    "rounds_verified": 40
+  },
+  {
+    "evaluation": "evaluation-random",
+    "opponent": "edge",
+    "wins": 1,
+    "opponent_fall_credits_in_wins": {
+      "0": 1
+    },
+    "learner_hits": 94,
+    "rounds_verified": 40
+  }
+]

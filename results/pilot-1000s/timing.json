@@ -1,0 +1,10 @@
+{
+  "requested_learning_seconds": 1000.0,
+  "started_unix_seconds": 1795578257.783377,
+  "learning_seconds": 1000.0003884170146,
+  "steps": {
+    "GangFightFighterV3": 1104244
+  },
+  "stop_reason": "wall_clock_budget",
+  "total_seconds_including_export": 1003.6309319169959
+}

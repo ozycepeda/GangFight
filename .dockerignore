@@ -1,0 +1,12 @@
+**
+!builds/
+!builds/Linux/
+!builds/Linux/**
+!training/
+!training/config/
+!training/config/**
+!training/evaluation/
+!training/evaluation/**
+!training/docker/
+!training/docker/requirements.txt
+**/__pycache__/

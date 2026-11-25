@@ -1,0 +1,8 @@
+# Python 3.10, macOS ARM64; install with uv pip to preserve the tested gRPC override.
+mlagents==1.1.0
+mlagents-envs==1.1.0
+torch==2.1.2
+numpy==1.23.5
+onnx==1.15.0
+setuptools==75.8.0
+grpcio==1.68.1

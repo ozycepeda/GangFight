@@ -1,0 +1,60 @@
+{
+  "sources": {
+    "Assets/GangFight/Runtime/FighterContact.cs": {
+      "sha256": "180175450dd5487b2d9bcbf443348a761ac3e6768d4ae0753ee21ead711e5743",
+      "mtime": 1795571853.1206956
+    },
+    "Assets/GangFight/Runtime/GangFightGame.cs": {
+      "sha256": "f22d0189e078b5b48b3ee2bc319abd7b4edc9d900e176d4b048488fb2d5d372a",
+      "mtime": 1795646911.0707161
+    },
+    "Assets/GangFight/Runtime/MatchRules.cs": {
+      "sha256": "55fd7474e86adaab7b1b37f846daa68d04af5452359d53ee78b64d6673f7e818",
+      "mtime": 1795547295.6846328
+    },
+    "Assets/GangFight/Runtime/RunOptions.cs": {
+      "sha256": "ecd79635b2e0d6d5c48f877ff50e744878c535092ba10e93edfa7fd9611840da",
+      "mtime": 1795647340.8560693
+    },
+    "Assets/GangFight/Runtime/CommandReplay.cs": {
+      "sha256": "9898229564279e54107b3875d97ac9e389cbea57fe73ed1342ef2c43f89832c0",
+      "mtime": 1795572038.4009275
+    },
+    "Assets/GangFight/Runtime/KeyboardCommands.cs": {
+      "sha256": "1d12ff965bf5abc3de5f81ebac74bd9372fb4599ec3cea59f224d584ad8b2d71",
+      "mtime": 1795573681.5799098
+    },
+    "Assets/GangFight/Runtime/CombatSmoke.cs": {
+      "sha256": "a19cc8f5d15a94cac2ae54eb7c25b528ce77174e330c0e3894f6998e1b64305f",
+      "mtime": 1795647682.4653885
+    },
+    "Assets/GangFight/Runtime/PlayHud.cs": {
+      "sha256": "06debbe7d869e02a31969c96ee1ff984bc0d8036ad74ea1b9299c61dd5312dc3",
+      "mtime": 1795573681.58038
+    },
+    "Assets/GangFight/Runtime/Visuals.cs": {
+      "sha256": "13decdd063400ce1110437aa2c2024e12730e490cbd8ce7ef4ba6cd3911f4ad8",
+      "mtime": 1795576689.230333
+    },
+    "Assets/GangFight/Runtime/Fighter.cs": {
+      "sha256": "9dfe13a5ffa4152af4bfdb67a30841369e5689e991b30d2d0529546e1264b23a",
+      "mtime": 1795647726.27152
+    },
+    "Assets/GangFight/Runtime/Arena.cs": {
+      "sha256": "b5fed9e533752c3a76288e5d97b5dec2f771a6fbf58a0278c9d20a122847573d",
+      "mtime": 1795647480.0994084
+    },
+    "Assets/GangFight/Runtime/FighterCommand.cs": {
+      "sha256": "4b10a6f10a0c4353feb2c9525ee2cfb36ce001848a3e9e23ba96cc53ac34af0a",
+      "mtime": 1795573681.5796673
+    },
+    "Assets/GangFight/Runtime/FighterAgent.cs": {
+      "sha256": "1dca2204ef8fa210c969bb60bdbde4bdd98da1618b6b43de562d09c343396454",
+      "mtime": 1795647340.8571086
+    }
+  },
+  "player": "builds/macOS-training/GangFight.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll",
+  "player_sha256": "b4c6d64ff619c4fffb9b628f7261a8dd53058d9cbac5b770ce49089056a237b9",
+  "player_mtime": 1795647811.327266,
+  "source_latest_mtime": 1795647726.27152
+}

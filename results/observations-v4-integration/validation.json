@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "obs_0": [
+      "batch",
+      526
+    ],
+    "action_masks": [
+      "batch",
+      18
+    ]
+  },
+  "onnx": "passed",
+  "v3_checkpoint": "rejected as expected",
+  "frozen_evaluation_rounds": 12,
+  "new_observations": 526,
+  "previous_observations": 86,
+  "smoke_training": "passed",
+  "smoke_play": "passed",
+  "existing_rules": "passed",
+  "python_tests": 5,
+  "requested_training_steps": 8192,
+  "physics_and_action_contract": "unchanged"
+}

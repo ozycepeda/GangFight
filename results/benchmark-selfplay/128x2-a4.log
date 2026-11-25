@@ -1,0 +1,103 @@
+/Users/camilacepeda/Codigos/gangfight/training/benchmarks/train_native.py:6: UserWarning: Cannot set number of intraop threads after parallel work has started or after set_num_threads call when using native parallel backend (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/ParallelNative.cpp:230.)
+  torch.set_num_threads(int(os.environ.get('GF_TORCH_THREADS', '1')))
+
+            ┐  ╖
+        ╓╖╬│╡  ││╬╖╖
+    ╓╖╬│││││┘  ╬│││││╬╖
+ ╖╬│││││╬╜        ╙╬│││││╖╖                               ╗╗╗
+ ╬╬╬╬╖││╦╖        ╖╬││╗╣╣╣╬      ╟╣╣╬    ╟╣╣╣             ╜╜╜  ╟╣╣
+ ╬╬╬╬╬╬╬╬╖│╬╖╖╓╬╪│╓╣╣╣╣╣╣╣╬      ╟╣╣╬    ╟╣╣╣ ╒╣╣╖╗╣╣╣╗   ╣╣╣ ╣╣╣╣╣╣ ╟╣╣╖   ╣╣╣
+ ╬╬╬╬┐  ╙╬╬╬╬│╓╣╣╣╝╜  ╫╣╣╣╬      ╟╣╣╬    ╟╣╣╣ ╟╣╣╣╙ ╙╣╣╣  ╣╣╣ ╙╟╣╣╜╙  ╫╣╣  ╟╣╣
+ ╬╬╬╬┐     ╙╬╬╣╣      ╫╣╣╣╬      ╟╣╣╬    ╟╣╣╣ ╟╣╣╬   ╣╣╣  ╣╣╣  ╟╣╣     ╣╣╣┌╣╣╜
+ ╬╬╬╜       ╬╬╣╣      ╙╝╣╣╬      ╙╣╣╣╗╖╓╗╣╣╣╜ ╟╣╣╬   ╣╣╣  ╣╣╣  ╟╣╣╦╓    ╣╣╣╣╣
+ ╙   ╓╦╖    ╬╬╣╣   ╓╗╗╖            ╙╝╣╣╣╣╝╜   ╘╝╝╜   ╝╝╝  ╝╝╝   ╙╣╣╣    ╟╣╣╣
+   ╩╬╬╬╬╬╬╦╦╬╬╣╣╗╣╣╣╣╣╣╣╝                                             ╫╣╣╣╣
+      ╙╬╬╬╬╬╬╬╣╣╣╣╣╣╝╜
+          ╙╬╬╬╣╣╣╜
+             ╙
+        
+ Version information:
+  ml-agents: 1.1.0,
+  ml-agents-envs: 1.1.0,
+  Communicator API: 1.5.0,
+  PyTorch: 2.1.2
+/Users/camilacepeda/Codigos/gangfight/training/benchmarks/train_native.py:6: UserWarning: Cannot set number of intraop threads after parallel work has started or after set_num_threads call when using native parallel backend (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/ParallelNative.cpp:230.)
+  torch.set_num_threads(int(os.environ.get('GF_TORCH_THREADS', '1')))
+/Users/camilacepeda/Codigos/gangfight/training/benchmarks/train_native.py:6: UserWarning: Cannot set number of intraop threads after parallel work has started or after set_num_threads call when using native parallel backend (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/ParallelNative.cpp:230.)
+  torch.set_num_threads(int(os.environ.get('GF_TORCH_THREADS', '1')))
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1795577534.794485 2811076 fork_posix.cc:75] Other threads are currently calling into gRPC, skipping fork() handlers
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1795577534.799496 2811074 fork_posix.cc:75] Other threads are currently calling into gRPC, skipping fork() handlers
+[INFO] Connected to Unity environment with package version 4.0.0 and communication version 1.5.0
+[INFO] Connected to Unity environment with package version 4.0.0 and communication version 1.5.0
+[INFO] Connected new brain: GangFightFighterV3?team=0
+[INFO] Connected new brain: GangFightFighterV3?team=1
+[INFO] Connected new brain: GangFightFighterV3?team=0
+[INFO] Connected new brain: GangFightFighterV3?team=1
+[INFO] Hyperparameters for behavior name GangFightFighterV3: 
+	trainer_type:	ppo
+	hyperparameters:	
+	  batch_size:	128
+	  buffer_size:	4096
+	  learning_rate:	0.0003
+	  beta:	0.005
+	  epsilon:	0.2
+	  lambd:	0.95
+	  num_epoch:	3
+	  shared_critic:	False
+	  learning_rate_schedule:	linear
+	  beta_schedule:	linear
+	  epsilon_schedule:	linear
+	checkpoint_interval:	24576
+	network_settings:	
+	  normalize:	False
+	  hidden_units:	128
+	  num_layers:	2
+	  vis_encode_type:	simple
+	  memory:	None
+	  goal_conditioning_type:	hyper
+	  deterministic:	False
+	reward_signals:	
+	  extrinsic:	
+	    gamma:	0.995
+	    strength:	1.0
+	    network_settings:	
+	      normalize:	False
+	      hidden_units:	128
+	      num_layers:	2
+	      vis_encode_type:	simple
+	      memory:	None
+	      goal_conditioning_type:	hyper
+	      deterministic:	False
+	init_path:	None
+	keep_checkpoints:	1
+	even_checkpoints:	False
+	max_steps:	24576
+	time_horizon:	256
+	summary_freq:	2048
+	threaded:	False
+	self_play:	
+	  save_steps:	20000
+	  team_change:	100000
+	  swap_steps:	20000
+	  window:	10
+	  play_against_latest_model_ratio:	0.5
+	  initial_elo:	1200.0
+	behavioral_cloning:	None
+[WARNING] The max steps of the GhostTrainer for behavior name GangFightFighterV3 is less than team change. This team will not face                 opposition that has been trained if the opposition is managed by a different GhostTrainer as in an                 asymmetric game.
+[INFO] GangFightFighterV3. Step: 2048. Time Elapsed: 2.942 s. Mean Reward: 0.077. Std of Reward: 0.997. Training. ELO: 1200.838.
+[INFO] GangFightFighterV3. Step: 4096. Time Elapsed: 4.559 s. Mean Reward: 0.208. Std of Reward: 0.957. Training. ELO: 1202.293.
+[INFO] GangFightFighterV3. Step: 6144. Time Elapsed: 6.332 s. Mean Reward: -0.231. Std of Reward: 0.973. Training. ELO: 1201.242.
+[INFO] GangFightFighterV3. Step: 8192. Time Elapsed: 7.818 s. Mean Reward: -0.182. Std of Reward: 0.983. Training. ELO: 1199.926.
+[INFO] GangFightFighterV3. Step: 10240. Time Elapsed: 9.745 s. Mean Reward: 0.120. Std of Reward: 0.993. Training. ELO: 1198.572.
+[INFO] GangFightFighterV3. Step: 12288. Time Elapsed: 11.486 s. Mean Reward: 0.000. Std of Reward: 1.000. Training. ELO: 1200.157.
+[INFO] GangFightFighterV3. Step: 14336. Time Elapsed: 13.092 s. Mean Reward: -0.200. Std of Reward: 0.980. Training. ELO: 1197.836.
+[INFO] GangFightFighterV3. Step: 16384. Time Elapsed: 14.714 s. Mean Reward: 0.077. Std of Reward: 0.997. Training. ELO: 1197.879.
+[INFO] GangFightFighterV3. Step: 18432. Time Elapsed: 16.307 s. Mean Reward: 0.130. Std of Reward: 0.991. Training. ELO: 1198.534.
+[INFO] GangFightFighterV3. Step: 20480. Time Elapsed: 17.878 s. Mean Reward: 0.391. Std of Reward: 0.920. Training. ELO: 1202.605.
+[INFO] GangFightFighterV3. Step: 22528. Time Elapsed: 19.809 s. Mean Reward: 0.520. Std of Reward: 0.854. Training. ELO: 1207.535.
+[INFO] GangFightFighterV3. Step: 24576. Time Elapsed: 21.386 s. Mean Reward: -0.130. Std of Reward: 0.991. Training. ELO: 1209.992.
+[INFO] Exported /Users/camilacepeda/Codigos/gangfight/results/benchmark-selfplay/128x2-a4/GangFightFighterV3/GangFightFighterV3-24404.onnx
+[INFO] Exported /Users/camilacepeda/Codigos/gangfight/results/benchmark-selfplay/128x2-a4/GangFightFighterV3/GangFightFighterV3-24652.onnx
+[INFO] Copied /Users/camilacepeda/Codigos/gangfight/results/benchmark-selfplay/128x2-a4/GangFightFighterV3/GangFightFighterV3-24652.onnx to /Users/camilacepeda/Codigos/gangfight/results/benchmark-selfplay/128x2-a4/GangFightFighterV3.onnx.

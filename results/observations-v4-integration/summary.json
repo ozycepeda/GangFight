@@ -1,0 +1,236 @@
+[
+  {
+    "case": "128x2-a4",
+    "behavior": "GangFightFighterV4",
+    "num_envs": 1,
+    "torch_threads": 1,
+    "seed": 41,
+    "shaping": false,
+    "units": 128,
+    "layers": 2,
+    "arenas": 4,
+    "mode": "chase",
+    "graphics": false,
+    "elapsed_seconds": 17.207069666997995,
+    "returncode": 0,
+    "steps_requested": 8192,
+    "measured_steps": 4096,
+    "measured_seconds": 6.37709379196167,
+    "steps_per_second": 642.2988486013818,
+    "final_step": 8192,
+    "scalars": {
+      "Policy/Entropy": [
+        {
+          "step": 2048,
+          "value": 6.355990886688232,
+          "wall_time": 1795646993.3690062
+        },
+        {
+          "step": 4096,
+          "value": 6.355997085571289,
+          "wall_time": 1795646996.1913111
+        },
+        {
+          "step": 6144,
+          "value": 6.355551242828369,
+          "wall_time": 1795646999.627845
+        },
+        {
+          "step": 8192,
+          "value": 6.355545997619629,
+          "wall_time": 1795647002.568405
+        }
+      ],
+      "Environment/Episode Length": [
+        {
+          "step": 2048,
+          "value": 100.04762268066406,
+          "wall_time": 1795646993.369266
+        },
+        {
+          "step": 4096,
+          "value": 104.31578826904297,
+          "wall_time": 1795646996.191454
+        },
+        {
+          "step": 6144,
+          "value": 89.0434799194336,
+          "wall_time": 1795646999.627962
+        },
+        {
+          "step": 8192,
+          "value": 86.21739196777344,
+          "wall_time": 1795647002.5685408
+        }
+      ],
+      "GangFight/Timeout": [
+        {
+          "step": 2048,
+          "value": 0.0,
+          "wall_time": 1795646993.369438
+        },
+        {
+          "step": 4096,
+          "value": 0.0,
+          "wall_time": 1795646996.191561
+        },
+        {
+          "step": 6144,
+          "value": 0.0,
+          "wall_time": 1795646999.628056
+        },
+        {
+          "step": 8192,
+          "value": 0.0,
+          "wall_time": 1795647002.568667
+        }
+      ],
+      "GangFight/RoundSeconds": [
+        {
+          "step": 2048,
+          "value": 4.035237789154053,
+          "wall_time": 1795646993.369537
+        },
+        {
+          "step": 4096,
+          "value": 4.199999809265137,
+          "wall_time": 1795646996.19166
+        },
+        {
+          "step": 6144,
+          "value": 3.591304302215576,
+          "wall_time": 1795646999.628139
+        },
+        {
+          "step": 8192,
+          "value": 3.4765217304229736,
+          "wall_time": 1795647002.5687628
+        }
+      ],
+      "GangFight/LearnerWin": [
+        {
+          "step": 2048,
+          "value": 0.3333333432674408,
+          "wall_time": 1795646993.369662
+        },
+        {
+          "step": 4096,
+          "value": 0.15789473056793213,
+          "wall_time": 1795646996.191756
+        },
+        {
+          "step": 6144,
+          "value": 0.260869562625885,
+          "wall_time": 1795646999.628223
+        },
+        {
+          "step": 8192,
+          "value": 0.21739129722118378,
+          "wall_time": 1795647002.568852
+        }
+      ],
+      "Policy/Extrinsic Value Estimate": [
+        {
+          "step": 2048,
+          "value": 0.0028103135991841555,
+          "wall_time": 1795646993.36976
+        },
+        {
+          "step": 4096,
+          "value": -0.0004288034688215703,
+          "wall_time": 1795646996.18945
+        },
+        {
+          "step": 6144,
+          "value": -0.08192435652017593,
+          "wall_time": 1795646999.625504
+        },
+        {
+          "step": 8192,
+          "value": -0.09625948220491409,
+          "wall_time": 1795647002.566546
+        }
+      ],
+      "Environment/Cumulative Reward": [
+        {
+          "step": 2048,
+          "value": -0.30000001192092896,
+          "wall_time": 1795646993.369854
+        },
+        {
+          "step": 4096,
+          "value": -0.6842105388641357,
+          "wall_time": 1795646996.189709
+        },
+        {
+          "step": 6144,
+          "value": -0.43478259444236755,
+          "wall_time": 1795646999.625704
+        },
+        {
+          "step": 8192,
+          "value": -0.52173912525177,
+          "wall_time": 1795647002.566751
+        }
+      ],
+      "Policy/Extrinsic Reward": [
+        {
+          "step": 2048,
+          "value": -0.30000001192092896,
+          "wall_time": 1795646993.3735292
+        },
+        {
+          "step": 4096,
+          "value": -0.6842105388641357,
+          "wall_time": 1795646996.191136
+        },
+        {
+          "step": 6144,
+          "value": -0.43478259444236755,
+          "wall_time": 1795646999.627126
+        },
+        {
+          "step": 8192,
+          "value": -0.52173912525177,
+          "wall_time": 1795647002.568214
+        }
+      ],
+      "Losses/Policy Loss": [
+        {
+          "step": 6144,
+          "value": 0.07555603981018066,
+          "wall_time": 1795646999.627254
+        }
+      ],
+      "Losses/Value Loss": [
+        {
+          "step": 6144,
+          "value": 0.0664982944726944,
+          "wall_time": 1795646999.6273868
+        }
+      ],
+      "Policy/Learning Rate": [
+        {
+          "step": 6144,
+          "value": 0.0001490112772444263,
+          "wall_time": 1795646999.627497
+        }
+      ],
+      "Policy/Epsilon": [
+        {
+          "step": 6144,
+          "value": 0.14967040717601776,
+          "wall_time": 1795646999.627597
+        }
+      ],
+      "Policy/Beta": [
+        {
+          "step": 6144,
+          "value": 0.002488553524017334,
+          "wall_time": 1795646999.627688
+        }
+      ]
+    },
+    "onnx": "/Users/camilacepeda/Codigos/gangfight/results/observations-v4-integration/128x2-a4/GangFightFighterV4.onnx"
+  }
+]

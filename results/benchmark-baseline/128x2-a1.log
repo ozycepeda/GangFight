@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/camilacepeda/Codigos/gangfight/.venv/bin/mlagents-learn", line 4, in <module>
+    from mlagents.trainers.learn import main
+  File "/Users/camilacepeda/Codigos/gangfight/.venv/lib/python3.10/site-packages/mlagents/trainers/learn.py", line 2, in <module>
+    from mlagents import torch_utils
+  File "/Users/camilacepeda/Codigos/gangfight/.venv/lib/python3.10/site-packages/mlagents/torch_utils/__init__.py", line 1, in <module>
+    from mlagents.torch_utils.torch import torch as torch  # noqa
+  File "/Users/camilacepeda/Codigos/gangfight/.venv/lib/python3.10/site-packages/mlagents/torch_utils/torch.py", line 4, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'

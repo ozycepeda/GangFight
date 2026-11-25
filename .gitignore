@@ -1,0 +1,17 @@
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/UserSettings/
+/MemoryCaptures/
+/builds/
+/results/
+/*.csproj
+*.sln
+.DS_Store
+__pycache__/
+.venv/
+/tests/bin/
+/tests/obj/
+
+.bootstrap/

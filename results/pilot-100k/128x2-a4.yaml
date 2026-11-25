@@ -1,0 +1,33 @@
+behaviors:
+  GangFightFighterV3:
+    checkpoint_interval: 100000
+    hyperparameters:
+      batch_size: 128
+      beta: 0.005
+      buffer_size: 4096
+      epsilon: 0.2
+      lambd: 0.95
+      learning_rate: 0.0003
+      learning_rate_schedule: linear
+      num_epoch: 3
+    keep_checkpoints: 1
+    max_steps: 100000
+    network_settings:
+      hidden_units: 128
+      normalize: false
+      num_layers: 2
+    reward_signals:
+      extrinsic:
+        gamma: 0.995
+        strength: 1.0
+    summary_freq: 2048
+    threaded: false
+    time_horizon: 256
+    trainer_type: ppo
+engine_settings:
+  time_scale: 100
+  target_frame_rate: -1
+  quality_level: 0
+  capture_frame_rate: 0
+torch_settings:
+  device: cpu

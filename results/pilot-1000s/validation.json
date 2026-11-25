@@ -1,0 +1,13 @@
+{
+  "training_seconds": 1000.0003884170146,
+  "steps": 1104244,
+  "onnx": "passed onnx.checker",
+  "verified_rounds": 360,
+  "simulator_hashes_unchanged": {
+    "Assets/GangFight/Runtime/Arena.cs": true,
+    "Assets/GangFight/Runtime/Fighter.cs": true,
+    "Assets/GangFight/Runtime/FighterAgent.cs": true,
+    "Assets/GangFight/Runtime/GangFightGame.cs": true,
+    "builds/macOS-training/GangFight.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll": true
+  }
+}

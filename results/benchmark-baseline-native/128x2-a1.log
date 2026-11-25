@@ -1,0 +1,84 @@
+
+            ┐  ╖
+        ╓╖╬│╡  ││╬╖╖
+    ╓╖╬│││││┘  ╬│││││╬╖
+ ╖╬│││││╬╜        ╙╬│││││╖╖                               ╗╗╗
+ ╬╬╬╬╖││╦╖        ╖╬││╗╣╣╣╬      ╟╣╣╬    ╟╣╣╣             ╜╜╜  ╟╣╣
+ ╬╬╬╬╬╬╬╬╖│╬╖╖╓╬╪│╓╣╣╣╣╣╣╣╬      ╟╣╣╬    ╟╣╣╣ ╒╣╣╖╗╣╣╣╗   ╣╣╣ ╣╣╣╣╣╣ ╟╣╣╖   ╣╣╣
+ ╬╬╬╬┐  ╙╬╬╬╬│╓╣╣╣╝╜  ╫╣╣╣╬      ╟╣╣╬    ╟╣╣╣ ╟╣╣╣╙ ╙╣╣╣  ╣╣╣ ╙╟╣╣╜╙  ╫╣╣  ╟╣╣
+ ╬╬╬╬┐     ╙╬╬╣╣      ╫╣╣╣╬      ╟╣╣╬    ╟╣╣╣ ╟╣╣╬   ╣╣╣  ╣╣╣  ╟╣╣     ╣╣╣┌╣╣╜
+ ╬╬╬╜       ╬╬╣╣      ╙╝╣╣╬      ╙╣╣╣╗╖╓╗╣╣╣╜ ╟╣╣╬   ╣╣╣  ╣╣╣  ╟╣╣╦╓    ╣╣╣╣╣
+ ╙   ╓╦╖    ╬╬╣╣   ╓╗╗╖            ╙╝╣╣╣╣╝╜   ╘╝╝╜   ╝╝╝  ╝╝╝   ╙╣╣╣    ╟╣╣╣
+   ╩╬╬╬╬╬╬╦╦╬╬╣╣╗╣╣╣╣╣╣╣╝                                             ╫╣╣╣╣
+      ╙╬╬╬╬╬╬╬╣╣╣╣╣╣╝╜
+          ╙╬╬╬╣╣╣╜
+             ╙
+        
+ Version information:
+  ml-agents: 1.1.0,
+  ml-agents-envs: 1.1.0,
+  Communicator API: 1.5.0,
+  PyTorch: 2.1.2
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1795576675.416089 2787225 fork_posix.cc:75] Other threads are currently calling into gRPC, skipping fork() handlers
+[INFO] Connected to Unity environment with package version 4.0.0 and communication version 1.5.0
+[INFO] Connected new brain: GangFightFighterV3?team=0
+[INFO] Hyperparameters for behavior name GangFightFighterV3: 
+	trainer_type:	ppo
+	hyperparameters:	
+	  batch_size:	128
+	  buffer_size:	4096
+	  learning_rate:	0.0003
+	  beta:	0.005
+	  epsilon:	0.2
+	  lambd:	0.95
+	  num_epoch:	3
+	  shared_critic:	False
+	  learning_rate_schedule:	linear
+	  beta_schedule:	linear
+	  epsilon_schedule:	linear
+	checkpoint_interval:	24576
+	network_settings:	
+	  normalize:	False
+	  hidden_units:	128
+	  num_layers:	2
+	  vis_encode_type:	simple
+	  memory:	None
+	  goal_conditioning_type:	hyper
+	  deterministic:	False
+	reward_signals:	
+	  extrinsic:	
+	    gamma:	0.995
+	    strength:	1.0
+	    network_settings:	
+	      normalize:	False
+	      hidden_units:	128
+	      num_layers:	2
+	      vis_encode_type:	simple
+	      memory:	None
+	      goal_conditioning_type:	hyper
+	      deterministic:	False
+	init_path:	None
+	keep_checkpoints:	1
+	even_checkpoints:	False
+	max_steps:	24576
+	time_horizon:	256
+	summary_freq:	2048
+	threaded:	False
+	self_play:	None
+	behavioral_cloning:	None
+[INFO] GangFightFighterV3. Step: 2048. Time Elapsed: 4.988 s. Mean Reward: -1.000. Std of Reward: 0.000. Training.
+[INFO] GangFightFighterV3. Step: 4096. Time Elapsed: 8.311 s. Mean Reward: -1.000. Std of Reward: 0.000. Training.
+[INFO] GangFightFighterV3. Step: 6144. Time Elapsed: 11.835 s. Mean Reward: -1.000. Std of Reward: 0.000. Training.
+[INFO] GangFightFighterV3. Step: 8192. Time Elapsed: 15.268 s. Mean Reward: -1.000. Std of Reward: 0.000. Training.
+[INFO] GangFightFighterV3. Step: 10240. Time Elapsed: 21.439 s. Mean Reward: -1.000. Std of Reward: 0.000. Training.
+[INFO] GangFightFighterV3. Step: 12288. Time Elapsed: 29.110 s. Mean Reward: -1.000. Std of Reward: 0.000. Training.
+[INFO] GangFightFighterV3. Step: 14336. Time Elapsed: 35.621 s. Mean Reward: -1.000. Std of Reward: 0.000. Training.
+[INFO] GangFightFighterV3. Step: 16384. Time Elapsed: 40.873 s. Mean Reward: -1.000. Std of Reward: 0.000. Training.
+[INFO] GangFightFighterV3. Step: 18432. Time Elapsed: 45.575 s. Mean Reward: -1.000. Std of Reward: 0.000. Training.
+[INFO] GangFightFighterV3. Step: 20480. Time Elapsed: 48.941 s. Mean Reward: -1.000. Std of Reward: 0.000. Training.
+[INFO] GangFightFighterV3. Step: 22528. Time Elapsed: 52.677 s. Mean Reward: -1.000. Std of Reward: 0.000. Training.
+[INFO] GangFightFighterV3. Step: 24576. Time Elapsed: 56.232 s. Mean Reward: -1.000. Std of Reward: 0.000. Training.
+[INFO] Exported /Users/camilacepeda/Codigos/gangfight/results/benchmark-baseline-native/128x2-a1/GangFightFighterV3/GangFightFighterV3-24431.onnx
+[INFO] Exported /Users/camilacepeda/Codigos/gangfight/results/benchmark-baseline-native/128x2-a1/GangFightFighterV3/GangFightFighterV3-24642.onnx
+[INFO] Copied /Users/camilacepeda/Codigos/gangfight/results/benchmark-baseline-native/128x2-a1/GangFightFighterV3/GangFightFighterV3-24642.onnx to /Users/camilacepeda/Codigos/gangfight/results/benchmark-baseline-native/128x2-a1/GangFightFighterV3.onnx.

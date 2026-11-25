@@ -1,0 +1,271 @@
+{
+  "timing": {
+    "requested_learning_seconds": 1000.0,
+    "started_unix_seconds": 1795578257.783377,
+    "learning_seconds": 1000.0003884170146,
+    "steps": {
+      "GangFightFighterV3": 1104244
+    },
+    "stop_reason": "wall_clock_budget",
+    "total_seconds_including_export": 1003.6309319169959
+  },
+  "steps": 1104244,
+  "control_steps": 99952,
+  "average_steps_per_second": 1104.2435710930088,
+  "onnx": "results/pilot-1000s/128x2-a4/GangFightFighterV3.onnx",
+  "comparisons": [
+    {
+      "opponent": "passive",
+      "old": {
+        "policy": "results/pilot-100k/128x2-a4/GangFightFighterV3/checkpoint.pt",
+        "opponent": "passive",
+        "rounds": 40,
+        "seed": 9001,
+        "arenas": 4,
+        "sampling": "seeded stochastic ML-Agents policy; frozen weights",
+        "outcomes": {
+          "loss": 21,
+          "timeout": 19
+        },
+        "win_rate": 0.0,
+        "wilson_95": [
+          0,
+          0.08762453925039232
+        ],
+        "seconds": 28.77049441699637
+      },
+      "new": {
+        "policy": "results/pilot-1000s/128x2-a4/GangFightFighterV3/checkpoint.pt",
+        "opponent": "passive",
+        "rounds": 40,
+        "seed": 9001,
+        "arenas": 4,
+        "sampling": "seeded stochastic ML-Agents policy; frozen weights",
+        "outcomes": {
+          "loss": 1,
+          "timeout": 39
+        },
+        "win_rate": 0.0,
+        "wilson_95": [
+          0,
+          0.08762453925039232
+        ],
+        "seconds": 40.12487795800553
+      },
+      "delta_win_percentage_points": 0.0,
+      "old_diagnostics": {
+        "rounds_verified": 40,
+        "mean_round_seconds": 44.7605,
+        "learner_hits": 243,
+        "learner_grabs": 86,
+        "learner_self_falls": 15,
+        "rival_ejections_credited_to_learner": 0
+      },
+      "new_diagnostics": {
+        "rounds_verified": 40,
+        "mean_round_seconds": 59.979499999999994,
+        "learner_hits": 154,
+        "learner_grabs": 45,
+        "learner_self_falls": 1,
+        "rival_ejections_credited_to_learner": 0
+      },
+      "control": {
+        "policy": "results/pilot-1000s/control-100k/GangFightFighterV3.pt",
+        "opponent": "passive",
+        "rounds": 40,
+        "seed": 9001,
+        "arenas": 4,
+        "sampling": "seeded stochastic ML-Agents policy; frozen weights",
+        "outcomes": {
+          "loss": 13,
+          "timeout": 26,
+          "win": 1
+        },
+        "win_rate": 0.025,
+        "wilson_95": [
+          0.0044267174077949195,
+          0.1288165948800778
+        ],
+        "seconds": 32.446472333977
+      },
+      "control_diagnostics": {
+        "rounds_verified": 40,
+        "mean_round_seconds": 49.439,
+        "learner_hits": 253,
+        "learner_grabs": 66,
+        "learner_self_falls": 11,
+        "rival_ejections_credited_to_learner": 1
+      }
+    },
+    {
+      "opponent": "chase",
+      "old": {
+        "policy": "results/pilot-100k/128x2-a4/GangFightFighterV3/checkpoint.pt",
+        "opponent": "chase",
+        "rounds": 40,
+        "seed": 9001,
+        "arenas": 4,
+        "sampling": "seeded stochastic ML-Agents policy; frozen weights",
+        "outcomes": {
+          "loss": 24,
+          "win": 16
+        },
+        "win_rate": 0.4,
+        "wilson_95": [
+          0.2634811061240136,
+          0.5540438017260649
+        ],
+        "seconds": 10.297192375001032
+      },
+      "new": {
+        "policy": "results/pilot-1000s/128x2-a4/GangFightFighterV3/checkpoint.pt",
+        "opponent": "chase",
+        "rounds": 40,
+        "seed": 9001,
+        "arenas": 4,
+        "sampling": "seeded stochastic ML-Agents policy; frozen weights",
+        "outcomes": {
+          "loss": 19,
+          "timeout": 13,
+          "win": 8
+        },
+        "win_rate": 0.2,
+        "wilson_95": [
+          0.10499864973166874,
+          0.34757607381856676
+        ],
+        "seconds": 26.71617354202317
+      },
+      "delta_win_percentage_points": -20.0,
+      "old_diagnostics": {
+        "rounds_verified": 40,
+        "mean_round_seconds": 13.963,
+        "learner_hits": 361,
+        "learner_grabs": 100,
+        "learner_self_falls": 2,
+        "rival_ejections_credited_to_learner": 16
+      },
+      "new_diagnostics": {
+        "rounds_verified": 40,
+        "mean_round_seconds": 36.032,
+        "learner_hits": 962,
+        "learner_grabs": 341,
+        "learner_self_falls": 0,
+        "rival_ejections_credited_to_learner": 8
+      },
+      "control": {
+        "policy": "results/pilot-1000s/control-100k/GangFightFighterV3.pt",
+        "opponent": "chase",
+        "rounds": 40,
+        "seed": 9001,
+        "arenas": 4,
+        "sampling": "seeded stochastic ML-Agents policy; frozen weights",
+        "outcomes": {
+          "loss": 26,
+          "win": 9,
+          "timeout": 5
+        },
+        "win_rate": 0.225,
+        "wilson_95": [
+          0.1231595325467853,
+          0.3750339640409305
+        ],
+        "seconds": 16.49017745902529
+      },
+      "control_diagnostics": {
+        "rounds_verified": 40,
+        "mean_round_seconds": 22.174,
+        "learner_hits": 597,
+        "learner_grabs": 177,
+        "learner_self_falls": 1,
+        "rival_ejections_credited_to_learner": 9
+      }
+    },
+    {
+      "opponent": "edge",
+      "old": {
+        "policy": "results/pilot-100k/128x2-a4/GangFightFighterV3/checkpoint.pt",
+        "opponent": "edge",
+        "rounds": 40,
+        "seed": 9001,
+        "arenas": 4,
+        "sampling": "seeded stochastic ML-Agents policy; frozen weights",
+        "outcomes": {
+          "win": 16,
+          "loss": 20,
+          "timeout": 4
+        },
+        "win_rate": 0.4,
+        "wilson_95": [
+          0.2634811061240136,
+          0.5540438017260649
+        ],
+        "seconds": 17.14706695798668
+      },
+      "new": {
+        "policy": "results/pilot-1000s/128x2-a4/GangFightFighterV3/checkpoint.pt",
+        "opponent": "edge",
+        "rounds": 40,
+        "seed": 9001,
+        "arenas": 4,
+        "sampling": "seeded stochastic ML-Agents policy; frozen weights",
+        "outcomes": {
+          "loss": 12,
+          "timeout": 27,
+          "win": 1
+        },
+        "win_rate": 0.025,
+        "wilson_95": [
+          0.0044267174077949195,
+          0.1288165948800778
+        ],
+        "seconds": 34.58203829199192
+      },
+      "delta_win_percentage_points": -37.5,
+      "old_diagnostics": {
+        "rounds_verified": 40,
+        "mean_round_seconds": 23.180500000000002,
+        "learner_hits": 482,
+        "learner_grabs": 156,
+        "learner_self_falls": 1,
+        "rival_ejections_credited_to_learner": 14
+      },
+      "new_diagnostics": {
+        "rounds_verified": 40,
+        "mean_round_seconds": 49.702999999999996,
+        "learner_hits": 999,
+        "learner_grabs": 443,
+        "learner_self_falls": 0,
+        "rival_ejections_credited_to_learner": 0
+      },
+      "control": {
+        "policy": "results/pilot-1000s/control-100k/GangFightFighterV3.pt",
+        "opponent": "edge",
+        "rounds": 40,
+        "seed": 9001,
+        "arenas": 4,
+        "sampling": "seeded stochastic ML-Agents policy; frozen weights",
+        "outcomes": {
+          "loss": 16,
+          "timeout": 17,
+          "win": 7
+        },
+        "win_rate": 0.175,
+        "wilson_95": [
+          0.08745302996883066,
+          0.3195029205439244
+        ],
+        "seconds": 28.38801358299679
+      },
+      "control_diagnostics": {
+        "rounds_verified": 40,
+        "mean_round_seconds": 40.6495,
+        "learner_hits": 901,
+        "learner_grabs": 347,
+        "learner_self_falls": 1,
+        "rival_ejections_credited_to_learner": 6
+      }
+    }
+  ],
+  "caveat": "Same architecture, seed, PPO core parameters, opponent, shaping and arena count; max_steps annealing horizon was 100000 in the short run and 2000000 in the timed run. This is a budget comparison, not an isolated time-only causal experiment."
+}

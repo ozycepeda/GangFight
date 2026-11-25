@@ -1,0 +1,29 @@
+{
+    "GangFightFighterV4": {
+        "checkpoints": [
+            {
+                "steps": 8200,
+                "file_path": "/Users/camilacepeda/Codigos/gangfight/results/observations-v4-integration/128x2-a4/GangFightFighterV4/GangFightFighterV4-8200.onnx",
+                "reward": -0.4782608695652174,
+                "creation_time": 1795647002.760709,
+                "auxillary_file_paths": [
+                    "/Users/camilacepeda/Codigos/gangfight/results/observations-v4-integration/128x2-a4/GangFightFighterV4/GangFightFighterV4-8200.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8200,
+            "file_path": "/Users/camilacepeda/Codigos/gangfight/results/observations-v4-integration/128x2-a4/GangFightFighterV4.onnx",
+            "reward": -0.4782608695652174,
+            "creation_time": 1795647002.760709,
+            "auxillary_file_paths": [
+                "/Users/camilacepeda/Codigos/gangfight/results/observations-v4-integration/128x2-a4/GangFightFighterV4/GangFightFighterV4-8200.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.1.2"
+    }
+}

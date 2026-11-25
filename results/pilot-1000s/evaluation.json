@@ -1,0 +1,58 @@
+[
+  {
+    "policy": "results/pilot-1000s/128x2-a4/GangFightFighterV3/checkpoint.pt",
+    "opponent": "passive",
+    "rounds": 40,
+    "seed": 9001,
+    "arenas": 4,
+    "sampling": "seeded stochastic ML-Agents policy; frozen weights",
+    "outcomes": {
+      "loss": 1,
+      "timeout": 39
+    },
+    "win_rate": 0.0,
+    "wilson_95": [
+      0,
+      0.08762453925039232
+    ],
+    "seconds": 40.12487795800553
+  },
+  {
+    "policy": "results/pilot-1000s/128x2-a4/GangFightFighterV3/checkpoint.pt",
+    "opponent": "chase",
+    "rounds": 40,
+    "seed": 9001,
+    "arenas": 4,
+    "sampling": "seeded stochastic ML-Agents policy; frozen weights",
+    "outcomes": {
+      "loss": 19,
+      "timeout": 13,
+      "win": 8
+    },
+    "win_rate": 0.2,
+    "wilson_95": [
+      0.10499864973166874,
+      0.34757607381856676
+    ],
+    "seconds": 26.71617354202317
+  },
+  {
+    "policy": "results/pilot-1000s/128x2-a4/GangFightFighterV3/checkpoint.pt",
+    "opponent": "edge",
+    "rounds": 40,
+    "seed": 9001,
+    "arenas": 4,
+    "sampling": "seeded stochastic ML-Agents policy; frozen weights",
+    "outcomes": {
+      "loss": 12,
+      "timeout": 27,
+      "win": 1
+    },
+    "win_rate": 0.025,
+    "wilson_95": [
+      0.0044267174077949195,
+      0.1288165948800778
+    ],
+    "seconds": 34.58203829199192
+  }
+]

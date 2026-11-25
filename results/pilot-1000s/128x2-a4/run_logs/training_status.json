@@ -1,0 +1,47 @@
+{
+    "GangFightFighterV3": {
+        "checkpoints": [
+            {
+                "steps": 999780,
+                "file_path": "results/pilot-1000s/128x2-a4/GangFightFighterV3/GangFightFighterV3-999780.onnx",
+                "reward": -0.2593166083097458,
+                "creation_time": 1795579172.57321,
+                "auxillary_file_paths": [
+                    "results/pilot-1000s/128x2-a4/GangFightFighterV3/GangFightFighterV3-999780.pt"
+                ]
+            },
+            {
+                "steps": 1099744,
+                "file_path": "results/pilot-1000s/128x2-a4/GangFightFighterV3/GangFightFighterV3-1099744.onnx",
+                "reward": null,
+                "creation_time": 1795579254.12309,
+                "auxillary_file_paths": [
+                    "results/pilot-1000s/128x2-a4/GangFightFighterV3/GangFightFighterV3-1099744.pt"
+                ]
+            },
+            {
+                "steps": 1104244,
+                "file_path": "results/pilot-1000s/128x2-a4/GangFightFighterV3/GangFightFighterV3-1104244.onnx",
+                "reward": null,
+                "creation_time": 1795579257.8753479,
+                "auxillary_file_paths": [
+                    "results/pilot-1000s/128x2-a4/GangFightFighterV3/GangFightFighterV3-1104244.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1104244,
+            "file_path": "results/pilot-1000s/128x2-a4/GangFightFighterV3.onnx",
+            "reward": null,
+            "creation_time": 1795579257.8753479,
+            "auxillary_file_paths": [
+                "results/pilot-1000s/128x2-a4/GangFightFighterV3/GangFightFighterV3-1104244.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.1.2"
+    }
+}

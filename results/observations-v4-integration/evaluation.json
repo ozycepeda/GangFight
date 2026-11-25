@@ -1,0 +1,60 @@
+[
+  {
+    "policy": "results/observations-v4-integration/128x2-a4/GangFightFighterV4/checkpoint.pt",
+    "behavior": "GangFightFighterV4?team=0",
+    "observation_count": 526,
+    "opponent": "passive",
+    "rounds": 4,
+    "seed": 9001,
+    "arenas": 4,
+    "sampling": "seeded stochastic ML-Agents policy; frozen weights",
+    "outcomes": {
+      "loss": 4
+    },
+    "win_rate": 0.0,
+    "wilson_95": [
+      0,
+      0.48990002040399916
+    ],
+    "seconds": 1.0910063330084085
+  },
+  {
+    "policy": "results/observations-v4-integration/128x2-a4/GangFightFighterV4/checkpoint.pt",
+    "behavior": "GangFightFighterV4?team=0",
+    "observation_count": 526,
+    "opponent": "chase",
+    "rounds": 4,
+    "seed": 9001,
+    "arenas": 4,
+    "sampling": "seeded stochastic ML-Agents policy; frozen weights",
+    "outcomes": {
+      "loss": 3,
+      "win": 1
+    },
+    "win_rate": 0.25,
+    "wilson_95": [
+      0.045586062644636216,
+      0.6993639475573634
+    ],
+    "seconds": 0.746713083004579
+  },
+  {
+    "policy": "results/observations-v4-integration/128x2-a4/GangFightFighterV4/checkpoint.pt",
+    "behavior": "GangFightFighterV4?team=0",
+    "observation_count": 526,
+    "opponent": "edge",
+    "rounds": 4,
+    "seed": 9001,
+    "arenas": 4,
+    "sampling": "seeded stochastic ML-Agents policy; frozen weights",
+    "outcomes": {
+      "loss": 4
+    },
+    "win_rate": 0.0,
+    "wilson_95": [
+      0,
+      0.48990002040399916
+    ],
+    "seconds": 0.6805851669923868
+  }
+]

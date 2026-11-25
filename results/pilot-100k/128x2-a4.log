@@ -1,0 +1,124 @@
+/Users/camilacepeda/Codigos/gangfight/training/benchmarks/train_native.py:6: UserWarning: Cannot set number of intraop threads after parallel work has started or after set_num_threads call when using native parallel backend (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/ParallelNative.cpp:230.)
+  torch.set_num_threads(int(os.environ.get('GF_TORCH_THREADS', '1')))
+
+            ┐  ╖
+        ╓╖╬│╡  ││╬╖╖
+    ╓╖╬│││││┘  ╬│││││╬╖
+ ╖╬│││││╬╜        ╙╬│││││╖╖                               ╗╗╗
+ ╬╬╬╬╖││╦╖        ╖╬││╗╣╣╣╬      ╟╣╣╬    ╟╣╣╣             ╜╜╜  ╟╣╣
+ ╬╬╬╬╬╬╬╬╖│╬╖╖╓╬╪│╓╣╣╣╣╣╣╣╬      ╟╣╣╬    ╟╣╣╣ ╒╣╣╖╗╣╣╣╗   ╣╣╣ ╣╣╣╣╣╣ ╟╣╣╖   ╣╣╣
+ ╬╬╬╬┐  ╙╬╬╬╬│╓╣╣╣╝╜  ╫╣╣╣╬      ╟╣╣╬    ╟╣╣╣ ╟╣╣╣╙ ╙╣╣╣  ╣╣╣ ╙╟╣╣╜╙  ╫╣╣  ╟╣╣
+ ╬╬╬╬┐     ╙╬╬╣╣      ╫╣╣╣╬      ╟╣╣╬    ╟╣╣╣ ╟╣╣╬   ╣╣╣  ╣╣╣  ╟╣╣     ╣╣╣┌╣╣╜
+ ╬╬╬╜       ╬╬╣╣      ╙╝╣╣╬      ╙╣╣╣╗╖╓╗╣╣╣╜ ╟╣╣╬   ╣╣╣  ╣╣╣  ╟╣╣╦╓    ╣╣╣╣╣
+ ╙   ╓╦╖    ╬╬╣╣   ╓╗╗╖            ╙╝╣╣╣╣╝╜   ╘╝╝╜   ╝╝╝  ╝╝╝   ╙╣╣╣    ╟╣╣╣
+   ╩╬╬╬╬╬╬╦╦╬╬╣╣╗╣╣╣╣╣╣╣╝                                             ╫╣╣╣╣
+      ╙╬╬╬╬╬╬╬╣╣╣╣╣╣╝╜
+          ╙╬╬╬╣╣╣╜
+             ╙
+        
+ Version information:
+  ml-agents: 1.1.0,
+  ml-agents-envs: 1.1.0,
+  Communicator API: 1.5.0,
+  PyTorch: 2.1.2
+/Users/camilacepeda/Codigos/gangfight/training/benchmarks/train_native.py:6: UserWarning: Cannot set number of intraop threads after parallel work has started or after set_num_threads call when using native parallel backend (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/ParallelNative.cpp:230.)
+  torch.set_num_threads(int(os.environ.get('GF_TORCH_THREADS', '1')))
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1795577339.454756 2807009 fork_posix.cc:75] Other threads are currently calling into gRPC, skipping fork() handlers
+[INFO] Connected to Unity environment with package version 4.0.0 and communication version 1.5.0
+[INFO] Connected new brain: GangFightFighterV3?team=0
+[INFO] Hyperparameters for behavior name GangFightFighterV3: 
+	trainer_type:	ppo
+	hyperparameters:	
+	  batch_size:	128
+	  buffer_size:	4096
+	  learning_rate:	0.0003
+	  beta:	0.005
+	  epsilon:	0.2
+	  lambd:	0.95
+	  num_epoch:	3
+	  shared_critic:	False
+	  learning_rate_schedule:	linear
+	  beta_schedule:	linear
+	  epsilon_schedule:	linear
+	checkpoint_interval:	100000
+	network_settings:	
+	  normalize:	False
+	  hidden_units:	128
+	  num_layers:	2
+	  vis_encode_type:	simple
+	  memory:	None
+	  goal_conditioning_type:	hyper
+	  deterministic:	False
+	reward_signals:	
+	  extrinsic:	
+	    gamma:	0.995
+	    strength:	1.0
+	    network_settings:	
+	      normalize:	False
+	      hidden_units:	128
+	      num_layers:	2
+	      vis_encode_type:	simple
+	      memory:	None
+	      goal_conditioning_type:	hyper
+	      deterministic:	False
+	init_path:	None
+	keep_checkpoints:	1
+	even_checkpoints:	False
+	max_steps:	100000
+	time_horizon:	256
+	summary_freq:	2048
+	threaded:	False
+	self_play:	None
+	behavioral_cloning:	None
+[INFO] GangFightFighterV3. Step: 2048. Time Elapsed: 2.832 s. Mean Reward: -1.049. Std of Reward: 0.012. Training.
+[INFO] GangFightFighterV3. Step: 4096. Time Elapsed: 4.936 s. Mean Reward: -1.053. Std of Reward: 0.013. Training.
+[INFO] GangFightFighterV3. Step: 6144. Time Elapsed: 7.074 s. Mean Reward: -1.053. Std of Reward: 0.014. Training.
+[INFO] GangFightFighterV3. Step: 8192. Time Elapsed: 8.801 s. Mean Reward: -1.061. Std of Reward: 0.015. Training.
+[INFO] GangFightFighterV3. Step: 10240. Time Elapsed: 11.004 s. Mean Reward: -1.048. Std of Reward: 0.007. Training.
+[INFO] GangFightFighterV3. Step: 12288. Time Elapsed: 12.724 s. Mean Reward: -1.063. Std of Reward: 0.036. Training.
+[INFO] GangFightFighterV3. Step: 14336. Time Elapsed: 14.588 s. Mean Reward: -1.051. Std of Reward: 0.009. Training.
+[INFO] GangFightFighterV3. Step: 16384. Time Elapsed: 16.416 s. Mean Reward: -1.052. Std of Reward: 0.007. Training.
+[INFO] GangFightFighterV3. Step: 18432. Time Elapsed: 18.628 s. Mean Reward: -1.050. Std of Reward: 0.011. Training.
+[INFO] GangFightFighterV3. Step: 20480. Time Elapsed: 20.612 s. Mean Reward: -1.058. Std of Reward: 0.007. Training.
+[INFO] GangFightFighterV3. Step: 22528. Time Elapsed: 22.400 s. Mean Reward: -1.059. Std of Reward: 0.017. Training.
+[INFO] GangFightFighterV3. Step: 24576. Time Elapsed: 24.257 s. Mean Reward: -1.054. Std of Reward: 0.014. Training.
+[INFO] GangFightFighterV3. Step: 26624. Time Elapsed: 26.200 s. Mean Reward: -1.051. Std of Reward: 0.007. Training.
+[INFO] GangFightFighterV3. Step: 28672. Time Elapsed: 28.131 s. Mean Reward: -1.055. Std of Reward: 0.012. Training.
+[INFO] GangFightFighterV3. Step: 30720. Time Elapsed: 30.208 s. Mean Reward: -1.063. Std of Reward: 0.029. Training.
+[INFO] GangFightFighterV3. Step: 32768. Time Elapsed: 32.268 s. Mean Reward: -1.052. Std of Reward: 0.006. Training.
+[INFO] GangFightFighterV3. Step: 34816. Time Elapsed: 33.909 s. Mean Reward: -1.066. Std of Reward: 0.025. Training.
+[INFO] GangFightFighterV3. Step: 36864. Time Elapsed: 35.562 s. Mean Reward: -1.059. Std of Reward: 0.015. Training.
+[INFO] GangFightFighterV3. Step: 38912. Time Elapsed: 37.898 s. Mean Reward: -1.063. Std of Reward: 0.016. Training.
+[INFO] GangFightFighterV3. Step: 40960. Time Elapsed: 39.759 s. Mean Reward: -1.093. Std of Reward: 0.021. Training.
+[INFO] GangFightFighterV3. Step: 43008. Time Elapsed: 41.786 s. Mean Reward: -1.073. Std of Reward: 0.036. Training.
+[INFO] GangFightFighterV3. Step: 45056. Time Elapsed: 43.220 s. Mean Reward: -1.088. Std of Reward: 0.045. Training.
+[INFO] GangFightFighterV3. Step: 47104. Time Elapsed: 45.356 s. Mean Reward: -1.083. Std of Reward: 0.035. Training.
+[INFO] GangFightFighterV3. Step: 49152. Time Elapsed: 47.243 s. Mean Reward: -1.131. Std of Reward: 0.102. Training.
+[INFO] GangFightFighterV3. Step: 51200. Time Elapsed: 49.268 s. Mean Reward: -1.122. Std of Reward: 0.050. Training.
+[INFO] GangFightFighterV3. Step: 53248. Time Elapsed: 51.331 s. Mean Reward: -1.153. Std of Reward: 0.037. Training.
+[INFO] GangFightFighterV3. Step: 55296. Time Elapsed: 53.651 s. Mean Reward: -1.128. Std of Reward: 0.018. Training.
+[INFO] GangFightFighterV3. Step: 57344. Time Elapsed: 55.732 s. Mean Reward: -1.137. Std of Reward: 0.067. Training.
+[INFO] GangFightFighterV3. Step: 59392. Time Elapsed: 57.591 s. Mean Reward: -1.156. Std of Reward: 0.046. Training.
+[INFO] GangFightFighterV3. Step: 61440. Time Elapsed: 59.760 s. Mean Reward: -1.279. Std of Reward: 0.000. Training.
+[INFO] GangFightFighterV3. Step: 63488. Time Elapsed: 61.734 s. Mean Reward: -0.969. Std of Reward: 0.325. Training.
+[INFO] GangFightFighterV3. Step: 65536. Time Elapsed: 63.574 s. Mean Reward: -1.142. Std of Reward: 0.000. Training.
+[INFO] GangFightFighterV3. Step: 67584. Time Elapsed: 65.724 s. Mean Reward: -1.085. Std of Reward: 0.004. Training.
+[INFO] GangFightFighterV3. Step: 69632. Time Elapsed: 67.709 s. Mean Reward: -0.347. Std of Reward: 0.048. Training.
+[INFO] GangFightFighterV3. Step: 71680. Time Elapsed: 69.817 s. No episode was completed since last summary. Training.
+[INFO] GangFightFighterV3. Step: 73728. Time Elapsed: 71.496 s. Mean Reward: -1.372. Std of Reward: 0.000. Training.
+[INFO] GangFightFighterV3. Step: 75776. Time Elapsed: 73.423 s. Mean Reward: -0.591. Std of Reward: 0.458. Training.
+[INFO] GangFightFighterV3. Step: 77824. Time Elapsed: 75.447 s. Mean Reward: -1.222. Std of Reward: 0.083. Training.
+[INFO] GangFightFighterV3. Step: 79872. Time Elapsed: 77.166 s. Mean Reward: -0.694. Std of Reward: 0.401. Training.
+[INFO] GangFightFighterV3. Step: 81920. Time Elapsed: 79.549 s. Mean Reward: -0.923. Std of Reward: 0.328. Training.
+[INFO] GangFightFighterV3. Step: 83968. Time Elapsed: 81.358 s. Mean Reward: -1.140. Std of Reward: 0.092. Training.
+[INFO] GangFightFighterV3. Step: 86016. Time Elapsed: 83.472 s. No episode was completed since last summary. Training.
+[INFO] GangFightFighterV3. Step: 88064. Time Elapsed: 85.184 s. Mean Reward: -0.309. Std of Reward: 0.000. Training.
+[INFO] GangFightFighterV3. Step: 90112. Time Elapsed: 87.705 s. Mean Reward: -0.676. Std of Reward: 0.410. Training.
+[INFO] GangFightFighterV3. Step: 92160. Time Elapsed: 89.303 s. Mean Reward: -1.068. Std of Reward: 0.000. Training.
+[INFO] GangFightFighterV3. Step: 94208. Time Elapsed: 91.469 s. Mean Reward: -1.156. Std of Reward: 0.000. Training.
+[INFO] GangFightFighterV3. Step: 96256. Time Elapsed: 93.174 s. Mean Reward: -0.777. Std of Reward: 0.421. Training.
+[INFO] GangFightFighterV3. Step: 98304. Time Elapsed: 95.300 s. Mean Reward: -0.369. Std of Reward: 0.000. Training.
+[INFO] Exported /Users/camilacepeda/Codigos/gangfight/results/pilot-100k/128x2-a4/GangFightFighterV3/GangFightFighterV3-99884.onnx
+[INFO] Exported /Users/camilacepeda/Codigos/gangfight/results/pilot-100k/128x2-a4/GangFightFighterV3/GangFightFighterV3-100140.onnx
+[INFO] Copied /Users/camilacepeda/Codigos/gangfight/results/pilot-100k/128x2-a4/GangFightFighterV3/GangFightFighterV3-100140.onnx to /Users/camilacepeda/Codigos/gangfight/results/pilot-100k/128x2-a4/GangFightFighterV3.onnx.

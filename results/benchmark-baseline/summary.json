@@ -1,0 +1,13 @@
+[
+  {
+    "case": "128x2-a1",
+    "units": 128,
+    "layers": 2,
+    "arenas": 1,
+    "mode": "passive",
+    "graphics": false,
+    "elapsed_seconds": 0.3477195830200799,
+    "returncode": 1,
+    "steps_requested": 24576
+  }
+]
